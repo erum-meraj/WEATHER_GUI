@@ -4,6 +4,7 @@ from tkinter import font
 from PIL import Image, ImageTk
 
 HEIGHT = 500
+
 WIDTH = 600
 
 def format(c_weather):
