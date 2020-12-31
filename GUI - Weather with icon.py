@@ -21,8 +21,8 @@ def format(c_weather):
         humd = c_weather['main']['humidity']
         visb = c_weather['visibility']
         wins = c_weather['wind']['speed']
-		icona = c_weather['weather'][0]['icon']
-        final_print =  'City name: %s \nConditions: %s \nTemperature (°C): %s \nHumidity (percent) : %s \nVisibility (m):%s \nWind speed(Km/h)  : %s ' % (name, desc, temp,humd,visb,wins,icona)
+	icona = c_weather['weather'][0]['icon']
+        final_print =  'City name: %s \nConditions: %s \nTemperature (°C): %s \nHumidity (percent) : %s \nVisibility (m):%s \nWind speed(Km/h)  :%s \nIcon : %s ' % (name, desc, temp,humd,visb,wins,icona)
     except :
         final_print = 'Problem Occured'
     return final_print
