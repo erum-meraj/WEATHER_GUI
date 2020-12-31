@@ -2,7 +2,7 @@ import tkinter as tk
 import requests
 from tkinter import font
 #from PIL import Image, ImageTk
-
+#happy new year :)
 app = tk.Tk()
 
 HEIGHT = 500
